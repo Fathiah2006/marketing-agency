@@ -5,7 +5,8 @@ import Services from "../sections/Services";
 import Discover from "../sections/Discover";
 import About from "../sections/About";
 import Reviews from "../sections/Reviews";
-import Goal from "../sections/Goal";
+import Price from "../sections/Price";
+import Contact from "../sections/Contact";
 
 import "../../assets/css/hero.css"
 
@@ -15,7 +16,8 @@ const Wrapper = () => {
 	const discoverSection = <Discover key="1" />;
     const aboutSection = <About key="1" />
     const reviewsSection = <Reviews key="1" />;
-    const goalSection = <Goal key="1" />;
+	const pricingSection = <Price key="1" />;
+	const contactSection = <Contact key="1" />;
 
     
 	return (
@@ -51,6 +53,17 @@ const Wrapper = () => {
 					components={[reviewsSection]}
 				/>
 
+				<Section
+					id="pricing"
+					classes="pricing flex"
+					components={[pricingSection]}
+				/>
+
+				<Section
+					id="contact"
+					classes="contact flex"
+					components={[contactSection]}
+				/>
 			</section>
 		</>
 	);

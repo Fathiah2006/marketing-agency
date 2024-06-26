@@ -1,0 +1,65 @@
+#contact .sectionInfo {
+    text-align: left;
+    align-items: start;
+    flex-direction: column;
+    width: 100%;
+}
+#contact>.container .container {
+    flex-direction: column-reverse;
+    gap: 20px;
+}
+#contact .sectionInfo span {
+    color: var(--theme-clr);
+    font-weight: 800;
+}
+#contact .sectionInfo p {
+    max-width: 470px;
+    text-align: left;
+}
+
+#contact .card.logo {
+    background-color: transparent;
+    box-shadow: none;
+}
+#contact .card.logo .cardImg img {
+    width: 100%;
+}
+
+
+
+@media screen and (min-width: 860px) {
+    #contact>.container .container {
+        flex-direction: row;
+        gap: 0px 30px;
+    }
+
+    #contact>.container .container>div {
+        width: 50%;
+    }
+    #contact>.container .container>div:nth-child(2) {
+        align-items: start !important;
+        align-content: start !important;
+    }
+
+    #contact .card.logo {
+        position: relative;
+        width: 568px;
+        height: 454px;
+        overflow: unset;
+    }
+    #contact .card.logo::before {
+        width: 100%;
+        height: 586px;
+    }
+
+    .reasons li {
+        gap: 10px 50px;
+    }
+    .reasonIcon {
+        width: 70px;
+        height: 70px;
+    }
+    .reasonIcon img {
+        transform: scale(1);
+    }
+}

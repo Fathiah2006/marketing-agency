@@ -104,6 +104,7 @@
         position: relative;
         width: 494.09px;
         height: 575.99px;
+        overflow: unset;
     }
     #about .card.logo::before {
         width: 100%;

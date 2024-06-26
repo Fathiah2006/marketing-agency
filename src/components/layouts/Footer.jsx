@@ -1,5 +1,6 @@
 import React from "react";
 
+import coLabLogoBlack from "../../assets/icons/CoLab-logo-black.svg";
 import mapImg from "../../assets/img/map.png";
 
 const Footer = () => {
@@ -9,7 +10,9 @@ const Footer = () => {
 				<div className="container col-12">
 					<div className="footer-columns">
 						<div className="column">
-							<h4>E-Sheba</h4>
+							<div className="footer-logo">
+								<img src={coLabLogoBlack} alt="CoLab Logo" />
+							</div>
 							<p>
 								At E-Sheba, we are committed to advancing
 								healthcare through innovation and excellence.
@@ -29,7 +32,7 @@ const Footer = () => {
 							</div>
 						</div>
 						<div className="column">
-							<h4>Useful Links</h4>
+							<h4>Links</h4>
 
 							<ul>
 								<li> About Us </li>
@@ -39,7 +42,7 @@ const Footer = () => {
 							</ul>
 						</div>
 						<div className="column">
-							<h4>Address</h4>
+							<h4>Our Office</h4>
 
 							<img src={mapImg} alt="map" />
 						</div>
