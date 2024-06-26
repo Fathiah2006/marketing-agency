@@ -50,7 +50,7 @@
 .header-c>.logo {
     position: inherit;
     font-size: 0.8em;
-    width: 95px;
+    width: 90px;
 }
 .header-c>.logo span {
     color: var(--theme-clr);
@@ -68,6 +68,10 @@
 
 .header-c>.logo a {
     color: var(--header-text-color);
+}
+.header-c>.logo img {
+    width: 100%;
+
 }
 
 .icoBtn {
