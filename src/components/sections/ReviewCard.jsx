@@ -30,14 +30,15 @@ const ReviewCard = () => {
 							<p> Amazing Service </p> <br />
 							<p>
 								{" "}
-								The doctors are incredibly knowledgeable and
-								compassionate. The modern facilities and
-								advanced medical technology made me feel
-								confident that I was receiving the best care
-								possible. I appreciate the personalized approach
-								they take with each patient, making sure my
-								treatment plan was tailored to my specific
-								needs. Highly recommend!{" "}
+								Before CoLab, financial planning
+								was a scary mystery. Debt kept me up at night.
+								Then I met Mathew, my specialist. They
+								listened, explained everything clearly, and
+								built a personalized plan that actually worked!
+								Now, my finances are under control, and I
+								finally see a path to my goals. Huge thanks to
+								the CoLab team for their expertise
+								and support. You're lifesavers!!{" "}
 							</p>
 						</div>
 					</div>

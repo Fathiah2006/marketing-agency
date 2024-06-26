@@ -15,9 +15,8 @@ const Price = () => {
 				</div>
 				<p>
 					{" "}
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-					Maecenas lorem arcu adipiscing quis. Lorem ipsum dolor sit
-					amet, consectetur adipiscing elit.{" "}
+					Pricing plans designed to deliver exceptional ROI. Get the
+					results you deserve without breaking the bank.
 				</p>
 			</div>
 

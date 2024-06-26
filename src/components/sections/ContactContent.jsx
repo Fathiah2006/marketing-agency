@@ -14,9 +14,12 @@ const ContactContent = () => {
 					</div>
 					<p>
 						{" "}
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-						Maecenas lorem arcu adipiscing quis. Lorem ipsum dolor
-						sit amet, consectetur adipiscing elit.{" "}
+						We're a team of passionate marketing experts eager to
+						help you achieve your business goals. Whether you're
+						looking for a complete marketing overhaul or need
+						assistance with specific campaigns, we're here to guide
+						you every step of the way. Drop us a line and let's
+						spark a conversation.{" "}
 					</p>
 
 					<button className="btn rounded">Get In Touch</button>

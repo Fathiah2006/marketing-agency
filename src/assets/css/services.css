@@ -35,11 +35,34 @@
     margin: 0px 0px 15px;
     padding: 5px;
 }
+.service-cards .card-icon svg,
+.service-cards .card-icon svg path,
 .card-icon img {
     transform: scale(0.8);
     margin: 0 auto;
+    fill: #fff;
 }
+.service-cards .card:hover .card-icon svg,
+.service-cards .card:hover .card-icon svg path {
+    fill: var(--theme-clr);
+}
+
 
 .service-cards .card p {
     text-align: center;
+}
+
+.service-cards .card .arrow {
+    border: 2px solid #000;
+    color: #000;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.service-cards .card:hover .arrow {
+    border: 1px solid #fff;
+    color: #fff;
 }

@@ -14,15 +14,12 @@ const Footer = () => {
 								<img src={coLabLogoBlack} alt="CoLab Logo" />
 							</div>
 							<p>
-								At E-Sheba, we are committed to advancing
-								healthcare through innovation and excellence.
-								Our vision for the future of quality health
-								includes:
-							</p>
-							<p>
-								We continuously integrate the latest medical
-								technologies to provide precise and effective
-								treatments.
+								At CoLab, we are a passionate marketing agency
+								dedicated to helping businesses achieve their
+								full potential. We believe that strong marketing
+								is more than just creating content and running
+								campaigns. It's about understanding your brand,
+								your audience, and your unique goals.
 							</p>
 
 							<div className="social-icons">
@@ -35,16 +32,25 @@ const Footer = () => {
 							<h4>Links</h4>
 
 							<ul>
-								<li> About Us </li>
-								<li> Privacy Policy </li>
+								<li> About </li>
+								<li> services </li>
+								<li> blog </li>
 								<li> Our Mission </li>
-								<li> Our Team </li>
+								<li> Contacts </li>
 							</ul>
 						</div>
 						<div className="column">
 							<h4>Our Office</h4>
 
-							<img src={mapImg} alt="map" />
+							<p>
+								We take a collaborative approach, working
+								closely with you to develop a customized
+								marketing strategy that drives real results.
+								Whether you're looking to increase brand
+								awareness, generate leads, or boost sales, we're
+								here to help you reach your target audience and
+								achieve lasting success.
+							</p>
 						</div>
 					</div>
 					<div className="footer-bottom">
