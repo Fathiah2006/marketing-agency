@@ -1,5 +1,6 @@
 import React from "react";
 import "../../assets/library/boxicons/css/only.used.boxicons.css"
+import heroImg from "../../assets/img/hero-img.png";
 import adobeLogo from "../../assets/img/adobe-logo.png";
 import andreessenLogo from "../../assets/img/Andreessen-logo.png";
 import amazonLogo from "../../assets/img/Amazon-logo.png";
@@ -25,8 +26,14 @@ const HeroHeader = () => {
 
 					<div className="actionBtns flex">
 						<button className="btn rounded"> Get Started </button>
-						<button className="btn rounded plainBtn"> How It Works </button>
+						<button className="btn rounded plainBtn">
+							{" "}
+							How It Works{" "}
+						</button>
 					</div>
+				</div>
+				<div className="hero-img">
+					<img src={heroImg} alt="" />
 				</div>
 			</div>
 
