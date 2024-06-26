@@ -30,7 +30,18 @@ const Header = () => {
 						</a>
 					</div>
 
-					<div className="menu flex flexCenter"></div>
+					<div className="menu flex flexCenter">
+						<nav>
+							<a href=""> Home </a>
+							<a href="#services"> Projects </a>
+							<a href="#services"> Services </a>
+							<a href="#discover"> Discover </a>
+							<a href="#about"> About </a>
+							<a href="#pricing"> Prices </a>
+							<a href="#contact"> Contact </a>
+						</nav>
+					</div>
+
 					<div className="actionBtns flex flexCenter">
 						<span className="btn rounded plainBtn"> Sign Up </span>
 						<span className="btn rounded"> Log in </span>
