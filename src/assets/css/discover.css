@@ -1,0 +1,27 @@
+#discover .card {
+    width: 100%;
+    background-color: transparent;
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+}
+#discover .card .card-img {
+    width: 100%;
+}
+#discover .card .card-img img {
+    width: 100%;
+}
+
+.discover-cards {
+    gap: 20px;
+}
+.discover-cards .card {
+    border-radius: var(--round-conners);
+}
+
+
+@media screen and (min-width: 860px) {
+    #discover .card {
+        width: 750px;
+    }
+}
