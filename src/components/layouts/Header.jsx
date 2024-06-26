@@ -32,8 +32,7 @@ const Header = () => {
 
 					<div className="menu flex flexCenter">
 						<nav>
-							<a href=""> Home </a>
-							<a href="#services"> Projects </a>
+							<a href="#hero-header"> Home </a>
 							<a href="#services"> Services </a>
 							<a href="#discover"> Discover </a>
 							<a href="#about"> About </a>
