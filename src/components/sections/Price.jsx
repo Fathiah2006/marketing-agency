@@ -39,9 +39,9 @@ const Price = () => {
 					</div>
 					<div className="price-box">
 						<div className="price">
-							$19 <span>/ Month</span>{" "}
+							$54 <span>/ Month</span>{" "}
 						</div>
-						<div className="plan">Starter</div>
+						<div className="plan">Professional</div>
 						<div className="benefits">
 							<p>
 								{" "}
@@ -59,9 +59,9 @@ const Price = () => {
 					</div>
 					<div className="price-box">
 						<div className="price">
-							$19 <span>/ Month</span>{" "}
+							$89 <span>/ Month</span>{" "}
 						</div>
-						<div className="plan">Starter</div>
+						<div className="plan">Company</div>
 						<div className="benefits">
 							<p> Automation plus enterprise-grade features. </p>
 							<ul>
