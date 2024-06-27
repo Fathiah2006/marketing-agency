@@ -22,7 +22,7 @@ const AboutContent = () => {
 					<div className="secTitle">
 						<h2>
 							{" "}
-							Specialist in aviding clients on financial
+							Specialist in aiding clients on financial
 							challenges{" "}
 						</h2>
 					</div>
