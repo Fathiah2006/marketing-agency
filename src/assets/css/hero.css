@@ -91,6 +91,9 @@
     margin: 0px;
     font-size: 11px;
 }
+.hero-img {
+    pointer-events: none;
+}
 
 
 @media screen and (min-width: 860px) {
