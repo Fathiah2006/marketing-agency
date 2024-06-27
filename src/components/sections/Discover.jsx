@@ -16,9 +16,9 @@ const Discover = () => {
 				</div>
 				<p>
 					{" "}
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-					Maecenas lorem arcu adipiscing quis. Lorem ipsum dolor sit
-					amet, consectetur adipiscing elit.{" "}
+					At Discover & Explore, we believe in the power of growth and discovery.
+					Our mission is to provide innovative marketing solutions tailored to your unique needs.
+					We understand that every business has its own journey, and we're here to help you navigate it.{" "}
 				</p>
 			</div>
 
